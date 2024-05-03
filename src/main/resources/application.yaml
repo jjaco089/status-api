@@ -7,9 +7,9 @@ spring:
   application:
   datasource:
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
-    url: jdbc:sqlserver://;serverName=jjaco089.database.windows.net;databaseName=status-db;encrypt=true
-    username: jjaco089
-    password: Jarsare#1
+    url: ${SQLAZURECONNSTR_status-db}
+    username: ${DBUSER}
+    password: ${DBPASS}
   jpa:
     database-platform: org.hibernate.dialect.SQLServerDialect
     show-sql: true
