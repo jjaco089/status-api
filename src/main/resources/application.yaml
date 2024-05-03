@@ -7,7 +7,7 @@ spring:
   application:
   datasource:
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
-    url: ${SQLAZURECONNSTR_AZURE_SQL_CONNECTIONSTRING}
+    url: ${SQLAZURECONNSTR_statusDB}
     username: ${DBUSER}
     password: ${DBPASS}
   jpa:
